@@ -57,8 +57,8 @@ if __name__ == "__main__":
     install_batctl()
     create_start_batman_adv_script()
     configure_batman_adv_module()
-    #configure_dhcpcd()
+    configure_dhcpcd()
     setup_nameserver()
-    #configure_rc_local()
+    configure_rc_local()
 ​
     print("All configurations done. You can now reboot the Pi.")
